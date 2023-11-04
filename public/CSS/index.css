@@ -1,0 +1,147 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+/* main{
+    
+} */
+main {
+  height: 100vh;
+  padding-top: 80px;
+}
+/* HEADER
+------------------------- */
+
+.navbar-dark .navbar-nav .btn-compra-tickets {
+  color: #25a342;
+}
+
+nav.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+@media (min-width: 992px) {
+  .btn-compra-tickets {
+    border: 1px solid transparent;
+    border-radius: 0.8rem;
+  }
+  .btn-compra-tickets:hover,
+  .navbar-dark .navbar-nav .btn-compra-tickets.active {
+    background: #25a342;
+  }
+}
+
+/* INFORMATION
+------------------------- */
+.pt-section {
+  padding-top: 7rem;
+}
+
+.sectionDesc {
+  min-height: 12rem;
+}
+
+.containerDesc {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.descuento {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  transition: transform 0.3s, border-color 0.3s;
+}
+.descuento:hover {
+  transform: scale(1.05);
+  border-color: #4195d3;
+}
+.translucido {
+  opacity: 0.5;
+}
+
+.formConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conteinterVenta {
+  margin-bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  max-width: 36rem;
+}
+.selector {
+  height: 2rem;
+}
+
+.btn-form {
+  background: #96c93e;
+  color: #fff !important;
+}
+.btn-form:hover {
+  background: #74aa17;
+}
+.conteinerPago{
+    margin-top: 1rem;
+}
+
+#totalPago {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* FOOTER
+---------------------------- */
+
+#main-footer {
+  background: #1d3c4e;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+#main-footer .nav-link {
+  color: #fff;
+  text-align: center;
+}
+#main-footer .nav-link:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 992px) {
+  #main-footer .nav-link span {
+    display: block;
+  }
+}
+
+/* ID
+---------------------------- */
+#descEstudiante {
+  border: 1px solid #4195d3;
+}
+#descTrainee {
+  border: 1px solid #368e3c;
+}
+#descJunior {
+  border: 1px solid #d69c38;
+}
